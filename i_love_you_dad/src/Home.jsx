@@ -64,7 +64,7 @@ export default function Home() {
     return (
         <div style = {homeState} className = "chocolate">
             <h3 style = {h2Style} className = "yogurt">
-                hi jamal! i built this website for your birthday because i love you. i hope you like it!
+                hi dad! i built this website for your birthday because i love you. i hope you like it!
             </h3>
         </div>
     )

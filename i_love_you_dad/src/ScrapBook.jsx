@@ -188,7 +188,7 @@ export default function ScrapBoook() {
                 <p 
                 style = {ppState}
                 >{item.description}</p>
-                <h3 style = {h3State}>i love you jamal!</h3>
+                <h3 style = {h3State}>i love you dad!</h3>
             </div>
         )
     })
@@ -199,7 +199,7 @@ export default function ScrapBoook() {
     }
     return (
         <div style = {dumb}>
-            <h1>happy birthday jamal!</h1>
+            <h1>happy birthday dad!</h1>
             {picMap}
         </div>
     )
