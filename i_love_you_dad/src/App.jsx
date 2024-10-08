@@ -6,7 +6,7 @@ import TestDad from './TestDad'
 import Home from './Home'
 import ScrapBoook from './ScrapBook'
 import Nav from './Nav'
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 
 export default function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +24,7 @@ export default function App() {
     <>
       <div style = {appStyle}>
         <Nav/>
-        <Routes>
+        <Routes history = {BrowserRouter}>
           <Route path = "/" element = {<Home/>}/>
           <Route path = "/TestDad" element = {<TestDad/>}/>
           <Route path = "/ScrapBook" element = {<ScrapBoook/>}/>
